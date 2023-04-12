@@ -27,7 +27,7 @@ body{
     height: 200px;
 }
 
-p{
+#p1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: chartreuse;
 }
@@ -72,4 +72,57 @@ p{
     border-radius: 30px 30px 0px 30px ;
     color: yellow;
     text-align: center;
+}
+
+#tbl{
+    border-collapse: collapse;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:palegreen;
+    border: 2px solid lightseagreen;
+}
+td{
+    border: 1px solid rebeccapurple;
+    margin-left: 40px;
+    
+}
+
+#disp{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 1px solid slategrey;
+    color: red;
+    display: flex;
+
+}
+#disp p{
+    font-size: 30px;
+    /* applying disply properties*/
+    /* display: inline; */
+}
+
+
+#b1{
+    background-color: blueviolet;
+    border : 1px soid green;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    margin: 10px;
+    padding:5px;
+
+
+}
+
+#b1:hover{
+    background-color: antiquewhite;
+    font-size: large;
+}
+#b2:hover{
+
+    transform: translateX(5px);
+    box-shadow: 0px 8px 15px 0px red;
+
 }
